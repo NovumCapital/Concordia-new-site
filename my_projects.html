@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>My projects</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="./styles.css">
+	<link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+	<link href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/css/bootstrap4-toggle.min.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/js/bootstrap4-toggle.min.js"></script>
+</head>
+
+
+<body>
+	<div class="header row mr-0 ml-0">
+		<div class="col-md-10 col-12">
+			<img class="brand" src="./images/concordia-logo.svg">
+		</div>
+		<div class="col-md-1 col-9 pl-5 my-auto">
+			<a class="search" href="#"><i class="fa fa-search"><span class="ml-2">Search</span></i></a>
+		</div>
+		<div class="col-md-1 col-3 my-auto pr-5 dropdown" align="right">
+			<img class="profile-user profile-dropdown" src="./images/profile-user.jpg" alt="">
+			<div class="dropdown layer"></div>
+			<div class="dropdown-content ">
+				<a href="#" class="menu-item text-black normal-text">
+					Login
+				</a>
+				<hr>
+				<a href="#" class="menu-item text-black normal-text">
+					Sign up
+				</a>
+			</div>
+		</div>		
+	</div>
+	<div class="menu-header content-center normal-text text-black">
+		<div class="my-auto"><span>Dashboard</span></div>
+		<div><span>Wallet</span></div>
+		<div><span>Project</span></div>
+		<div><span>Reward</span></div>
+		<div><span>Settings</span></div>
+	</div>
+	<hr class="mt-0">
+
+
+	<div class="container-margin mt-5 mb-5">
+		<div class="row">
+			<div class="col-md-10">
+				<nav class="nav nav-tabs mb-5">
+				    <a href="#" class="nav-item nav-link normal-text" style="color: #3167C2; font-weight: bold">My participation</a>
+				    <a href="#" class="nav-item nav-link active normal-text" style="font-weight: bold">My projects</a>
+				</nav>
+			</div>
+			<div class="col-md-2" align="right">
+				<a href="#"><button type="button" style="height: 40px;" class="btn btn-primary gradient-btn">Start a project</button></a>
+			</div>
+		</div>
+		
+		<table>
+			<tr class="table-head">
+		      	<th scope="col"></th>
+		      	<th scope="col">Created</th>
+		      	<th scope="col">Name</th>
+		      	<th scope="col">Status</th>
+		      	<th scope="col">Raised</th>
+		      	<th class="pl-4" style="width:400px" scope="col">Profile</th>
+		    </tr>
+			<tr>
+			    <td><img class="td-img" src="./images/logo.png"></td>
+			    <td><span class="text-black normal-text">12 Dec 2019</span></td>
+			    <td><span class="text-black normal-text">ABC123</span></td>
+			    <td><div class="pre-sale-status small-text my-auto content-center" style="width: 120px">
+					<span>Pre-sale</span>
+				</div></td>
+				<td><span class="text-black normal-text">US$10,369</span></td>
+				<td style="width: 400px">
+					<a href="#"><button type="button" class="border-btn btn btn-primary ml-3"><i class="fa fa-share"></i>&nbsp Report</button></a>
+					<a href="#"><button type="button" class="border-btn btn btn-primary ml-3"><i class="fa fa-play"></i>&nbsp Preview</button></a>
+					<a href="#"><button type="button" class="border-btn btn btn-primary ml-3"><i class="fa fa-edit"></i>&nbsp Edit</button></a>
+				</td>
+			</tr>
+			<tr>
+			    <td><img class="td-img" src="./images/logo.png"></td>
+			    <td><span class="text-black normal-text">12 Dec 2019</span></td>
+			    <td><span class="text-black normal-text">ABC123</span></td>
+			    <td><div class="upcoming-status small-text my-auto content-center" style="width: 120px">
+					<span>Upcoming</span>
+				</div></td>
+				<td><span class="text-black normal-text">US$10,369</span></td>
+				<td style="width: 400px">
+					<a href="#"><button type="button" class="border-btn btn btn-primary ml-3"><i class="fa fa-share"></i>&nbsp Report</button></a>
+					<a href="#"><button type="button" class="border-btn btn btn-primary ml-3"><i class="fa fa-play"></i>&nbsp Preview</button></a>
+					<a href="#"><button type="button" class="border-btn btn btn-primary ml-3"><i class="fa fa-edit"></i>&nbsp Edit</button></a>
+				</td>
+			</tr>
+			<tr>
+			    <td><img class="td-img" src="./images/logo.png"></td>
+			    <td><span class="text-black normal-text">12 Dec 2019</span></td>
+			    <td><span class="text-black normal-text">ABC123</span></td>
+			    <td><div class="ended-status small-text my-auto content-center" style="width: 120px">
+					<span>Ended</span>
+				</div></td>
+				<td><span class="text-black normal-text">US$10,369</span></td>
+				<td style="width: 400px">
+					<a href="#"><button type="button" class="border-btn btn btn-primary ml-3"><i class="fa fa-share"></i>&nbsp Report</button></a>
+					<a href="#"><button type="button" class="border-btn btn btn-primary ml-3"><i class="fa fa-play"></i>&nbsp Preview</button></a>
+					<a href="#"><button type="button" class="border-btn btn btn-primary ml-3"><i class="fa fa-edit"></i>&nbsp Edit</button></a>
+				</td>
+			</tr>
+			<tr>
+			    <td><img class="td-img" src="./images/logo.png"></td>
+			    <td><span class="text-black normal-text">12 Dec 2019</span></td>
+			    <td><span class="text-black normal-text">ABC123</span></td>
+			    <td><div class="pending-status small-text my-auto content-center" style="width: 120px">
+					<span>Pending</span>
+				</div></td>
+				<td><span class="text-black normal-text">US$10,369</span></td>
+				<td style="width: 400px">
+					<a href="#"><button type="button" class="border-btn btn btn-primary ml-3"><i class="fa fa-share"></i>&nbsp Report</button></a>
+					<a href="#"><button type="button" class="border-btn btn btn-primary ml-3"><i class="fa fa-play"></i>&nbsp Preview</button></a>
+					<a href="#"><button type="button" class="border-btn btn btn-primary ml-3"><i class="fa fa-edit"></i>&nbsp Edit</button></a>
+				</td>
+			</tr>
+			<tr>
+			    <td><img class="td-img" src="./images/logo.png"></td>
+			    <td><span class="text-black normal-text">12 Dec 2019</span></td>
+			    <td><span class="text-black normal-text">ABC123</span></td>
+			    <td><div class="rejected-status small-text my-auto content-center" style="width: 120px">
+					<span>Rejected</span>
+				</div></td>
+				<td><span class="text-black normal-text">US$10,369</span></td>
+				<td style="width: 400px">
+					<a href="#"><button type="button" class="border-btn btn btn-primary ml-3"><i class="fa fa-share"></i>&nbsp Report</button></a>
+					<a href="#"><button type="button" class="border-btn btn btn-primary ml-3"><i class="fa fa-play"></i>&nbsp Preview</button></a>
+					<a href="#"><button type="button" class="border-btn btn btn-primary ml-3"><i class="fa fa-edit"></i>&nbsp Edit</button></a>
+				</td>
+			</tr>
+			<tr>
+			    <td><img class="td-img" src="./images/logo.png"></td>
+			    <td><span class="text-black normal-text">12 Dec 2019</span></td>
+			    <td><span class="text-black normal-text">ABC123</span></td>
+			    <td><div class="public-sale-status small-text my-auto content-center" style="width: 120px">
+					<span>Public Sale</span>
+				</div></td>
+				<td><span class="text-black normal-text">US$10,369</span></td>
+				<td style="width: 400px">
+					<a href="#"><button type="button" class="border-btn btn btn-primary ml-3"><i class="fa fa-share"></i>&nbsp Report</button></a>
+					<a href="#"><button type="button" class="border-btn btn btn-primary ml-3"><i class="fa fa-play"></i>&nbsp Preview</button></a>
+					<a href="#"><button type="button" class="border-btn btn btn-primary ml-3"><i class="fa fa-edit"></i>&nbsp Edit</button></a>
+				</td>
+			</tr>
+			<tr>
+			    <td><img class="td-img" src="./images/logo.png"></td>
+			    <td><span class="text-black normal-text">12 Dec 2019</span></td>
+			    <td><span class="text-black normal-text">ABC123</span></td>
+			    <td><div class="listed-status small-text my-auto content-center" style="width: 120px">
+					<span>Listed</span>
+				</div></td>
+				<td><span class="text-black normal-text">US$10,369</span></td>
+				<td style="width: 400px">
+					<a href="#"><button type="button" class="border-btn btn btn-primary ml-3"><i class="fa fa-share"></i>&nbsp Report</button></a>
+					<a href="#"><button type="button" class="border-btn btn btn-primary ml-3"><i class="fa fa-play"></i>&nbsp Preview</button></a>
+					<a href="#"><button type="button" class="border-btn btn btn-primary ml-3"><i class="fa fa-edit"></i>&nbsp Edit</button></a>
+				</td>
+			</tr>
+			<tr>
+			    <td><img class="td-img" src="./images/logo.png"></td>
+			    <td><span class="text-black normal-text">12 Dec 2019</span></td>
+			    <td><span class="text-black normal-text">ABC123</span></td>
+			    <td><div class="rejected-status small-text my-auto content-center" style="width: 120px">
+					<span>Rejected</span>
+				</div></td>
+				<td><span class="text-black normal-text">US$10,369</span></td>
+					<td style="width: 400px">
+					<a href="#"><button type="button" class="border-btn btn btn-primary ml-3"><i class="fa fa-share"></i>&nbsp Report</button></a>
+					<a href="#"><button type="button" class="border-btn btn btn-primary ml-3"><i class="fa fa-play"></i>&nbsp Preview</button></a>
+					<a href="#"><button type="button" class="border-btn btn btn-primary ml-3"><i class="fa fa-edit"></i>&nbsp Edit</button></a>
+				</td>
+			</tr>
+		</table>
+	</div>
+
+
+</body>
+</html>

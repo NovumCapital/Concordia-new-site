@@ -1,4 +1,4 @@
-conte{
+body {
 	font-family: 'Robotto', sans-serif;
 }
 
@@ -217,7 +217,7 @@ h2 {
 .gradient-btn {
 	background-image: linear-gradient(to right, #3149AB, #479BFD);
 	color: white;
-	border: none;
+	border-radius: 4px;
 }
 
 .gradient-btn:hover {
@@ -226,15 +226,15 @@ h2 {
 
 .border-btn {
 	background-color: transparent;
-	border: 1px solid #3149AB;
-	color: #3149AB;
-	height: 32px;
+	border: 1px solid #3167C2;
+	color: #3167C2;
+	height: 31px;
+	font-size: 13px;
 }
 
 .border-btn:hover {
 	background-image: linear-gradient(to right, #3149AB, #479BFD);
 	color: white;
-	border: none;
 }
 
 .next-btn {
@@ -338,6 +338,11 @@ textarea:focus {
 	font-size: 17px;
 	font-weight: bold;
 	color: #333;
+}
+
+.menu-project-logo {
+	border: 1px solid #ddd;
+	border-radius: 90px;
 }
 
 .menu-box {
@@ -454,7 +459,7 @@ textarea:focus {
 }
 
 .radio-check {
-	background-color: #f6f6f6;
+	background-color: #f3f3f3;
 }
 
 .title-line {
@@ -475,13 +480,21 @@ h1 {
 	color: #333;
 }
 
+
 .project-img {
-	width: 750px;
-	height: 420px;
-	background-image: url(./images/project-img.png);
-	background-size: cover;
-	background-position: center;
+	width: 100%;
 	border-radius: 10px;
+	display: inline;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.heart-img {
+	width: 25px;
+	margin-top: 15px;
+    margin-right: 35px;
+    position: absolute;
+    right: 0;
 }
 
 
@@ -548,10 +561,6 @@ h1 {
 	height: 21px;
 }
 
-.heart-img {
-	width: 25px;
-}
-
 .bonus-box {
 	background-image: linear-gradient(to right, #3149AB, #479BFD);
 	border-radius: 8px;
@@ -577,6 +586,14 @@ h1 {
 
 .project-logo-feed {
 	width: 70%;
+	border: 1px solid #ddd;
+	border-radius: 90px;
+}
+
+.project-logo-feedpage {
+	border: 1px solid #ddd;
+	border-radius: 90px;
+	width: 100%;
 }
 
 .share-btn {
@@ -605,6 +622,261 @@ h1 {
 	margin-right: 20px;
 	color: white;
 }
+
+.toggle.ios, .toggle-on.ios, .toggle-off.ios { 
+	border-radius: 20rem; 
+	border: 1px solid #ccc;
+}
+
+.toggle.ios .toggle-handle { 
+	border-radius: 20rem; 
+}
+
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	left: -150px;
+    top: 64px;
+    padding: 15px 20px;
+    min-width: 260px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.dropdown a:hover {background-color: #f8f8f8;}
+
+.show {display: block;}
+
+.dropdown:hover .dropdown-content {
+ display: block;
+}
+
+.dropdown-content hr {
+	margin: 0px 0px;
+	cursor: pointer;
+}
+
+.menu-item:hover {
+	color: #3167C2;
+}
+
+.layer {
+	position: absolute !important;
+    width: 100%;
+    height: 100%;
+    right: 0;
+    top: 20px;
+}
+
+.prj-logo {
+	border: 1px solid #ddd;
+	border-radius: 90px;
+}
+
+.menu-header div {
+	height: 50px;
+	display: block;
+	font-size: 15px;
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-top: 15px;
+	color: #666;
+}
+
+.menu-header div:hover {
+	background-color: #3167C2;
+	color: white;
+}
+
+.wallet-box {
+	border: 2px solid #e8e8e8;
+	border-radius: 8px;
+	padding: 15px;
+	margin-bottom: 13px;
+}
+
+.participation-box {
+	border: 2px solid #e8e8e8;
+	border-radius: 8px;
+	padding: 20px;
+	margin-bottom: 13px;
+}
+
+.participation-box:hover {
+	border: 2px solid #3167C2;
+}
+
+.wallet-box:hover {
+	border: 2px solid #3167C2;
+}
+
+.wallet-logo {
+	width: 100%;
+}
+
+.wallet-btn {
+	border: 1px solid #e8e8e8;
+	border-radius: 4px;
+	color: #3167C2;
+	background-color: white;
+	height: 32px;
+}
+
+.wallet-btn:hover {
+	background-image: linear-gradient(to right, #3149AB, #479BFD);
+	color: white;
+	border: transparent;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.td-img {
+	width: 60px;
+	border-radius: 200px;
+	border: 1px solid #e8e8e8;
+}
+
+table th, td {
+  padding: 14px;
+  text-align: left;
+  border-bottom: 1px solid #e8e8e8;
+  border-top: 1px solid #e8e8e8;
+}
+
+tr:hover {background-color: #f9f9f9;}
+
+.load-more-btn {
+	background-color: white;
+	height: 35px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border: 1px solid #3167C2;
+	border-radius: 4px;
+	color: #3167C2;
+}
+
+.reward-table-img {
+	height: 20px;
+}
+
+.table-head {
+	background-color: #F3F3F3;
+}
+
+.load-more-btn:hover {
+	background-image: linear-gradient(to right, #3149AB, #479BFD);
+	border: none;
+}
+
+.pending-status {
+	background-color: #FFA200;
+	border-radius: 90px;
+	height: 27px;
+	color: white;
+}
+
+.pledged-status {
+	background-color: #479BFD;
+	border-radius: 90px;
+	height: 27px;
+	color: white;
+}
+
+.completed-status {
+	background-color: #05AA25;
+	border-radius: 90px;
+	height: 27px;
+	color: white;
+}
+
+.failed-status {
+	background-color: #FF5252;
+	border-radius: 90px;
+	height: 27px;
+	color: white;
+}
+
+.refunded-status {
+	background-color: #05AA25;
+	border-radius: 90px;
+	height: 27px;
+	color: white;
+}
+
+.pre-sale-status {
+	background-color: #05AA25;
+	border-radius: 90px;
+	height: 27px;
+	color: white;
+}
+
+.upcoming-status {
+	background-color: #479BFD;
+	border-radius: 90px;
+	height: 27px;
+	color: white;
+}
+
+.ended-status {
+	background-color: #AAAAAA;
+	border-radius: 90px;
+	height: 27px;
+	color: white;
+}
+
+.pending-status {
+	background-color: #FFA200;
+	border-radius: 90px;
+	height: 27px;
+	color: white;
+}
+
+.rejected-status {
+	background-color: #FF5252;
+	border-radius: 90px;
+	height: 27px;
+	color: white;
+}
+
+.public-sale-status {
+	background-color: #05AA25;
+	border-radius: 90px;
+	height: 27px;
+	color: white;
+}
+
+.listed-status {
+	background-color: #05AA25;
+	border-radius: 90px;
+	height: 27px;
+	color: white;
+}
+
 
 
 

@@ -12,6 +12,8 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="./styles.css">
 	<link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+	<link href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/css/bootstrap4-toggle.min.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/js/bootstrap4-toggle.min.js"></script>
 </head>
 
 
@@ -23,9 +25,19 @@
 		<div class="col-md-1 col-9 pl-5 my-auto">
 			<a class="search" href="#"><i class="fa fa-search"><span class="ml-2">Search</span></i></a>
 		</div>
-		<div class="col-md-1 col-3 my-auto pr-5" align="right">
-			<img class="profile-user" src="./images/profile-user.jpg" alt="">
-		</div>
+		<div class="col-md-1 col-3 my-auto pr-5 dropdown" align="right">
+			<img class="profile-user profile-dropdown" src="./images/profile-user.jpg" alt="">
+			<div class="dropdown layer"></div>
+			<div class="dropdown-content ">
+				<a href="#" class="menu-item text-black normal-text">
+					Login
+				</a>
+				<hr>
+				<a href="#" class="menu-item text-black normal-text">
+					Sign up
+				</a>
+			</div>
+		</div>		
 	</div>
 	<div class="preview-1 container-margin row">
 		<div class="col-md-9">
@@ -37,14 +49,15 @@
 					Company name<br>
 					<input class="text-input" type="text" name="Company name"><br>
 				</form>
-				<div class="radio-check pt-1 pl-3 pr-2 pb-2" stypb="font-size: 14px;">
-					<p class="normal-text text-black mt-2 mb-1">Are you creating a cryptocurrency project?</p>
-					<form>
-						<fieldset id="group1">
-							<label class="radio-inline mr-4 mt-1 mb-1"><input type="radio" name="optradio">&nbsp Yes</label>
-							<label class="radio-inline mt-1 mb-1"><input type="radio" name="optradio">&nbsp No</label>
-						</fieldset>
-					</form>
+				<div class="radio-check pt-2 pl-3 pr-2 pb-2" style="font-size: 14px;">
+					<div class="row">
+						<div class="col-md-9">
+							<p class="normal-text text-black mt-1 mb-1">Are you creating a cryptocurrency project?</p>
+						</div>
+						<div class="col-md-3" align="right">
+							<input class="switch-btn" type="checkbox" checked data-toggle="toggle" data-style="ios">
+						</div>
+					</div>
 				</div>
 				<form class="normal-text text-grey mt-3" align="center">
 					Token symbol<br>
