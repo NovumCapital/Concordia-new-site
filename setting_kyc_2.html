@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Setting KYC step 2</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="./styles.css">
+	<link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+	<link href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/css/bootstrap4-toggle.min.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/js/bootstrap4-toggle.min.js"></script>
+</head>
+
+
+<body>
+	<div class="header row mr-0 ml-0">
+		<div class="col-md-10 col-12">
+			<img class="brand" src="./images/concordia-logo.svg">
+		</div>
+		<div class="col-md-1 col-9 pl-5 my-auto">
+			<a class="search" href="#"><i class="fa fa-search"><span class="ml-2">Search</span></i></a>
+		</div>
+		<div class="col-md-1 col-3 my-auto pr-5 dropdown" align="right">
+			<img class="profile-user profile-dropdown" src="./images/profile-user.jpg" alt="">
+			<div class="dropdown layer"></div>
+			<div class="dropdown-content ">
+				<a href="#" class="menu-item text-black normal-text">
+					Login
+				</a>
+				<hr>
+				<a href="#" class="menu-item text-black normal-text">
+					Sign up
+				</a>
+			</div>
+		</div>		
+	</div>
+	<div class="menu-header content-center normal-text text-black">
+		<div class="my-auto"><span>Dashboard</span></div>
+		<div><span>Wallet</span></div>
+		<div><span>Project</span></div>
+		<div><span>Reward</span></div>
+		<div><span>Settings</span></div>
+	</div>
+	<hr class="mt-0">
+
+
+	<div class="container-margin mt-5 mb-5 row">
+		<div class="col-md-3 pr-5 mb-4">
+			<a style="text-decoration: none" href="#">
+			<div class="setting-box row">
+				<div class="col-md-2 col-2">
+					<img class="setting-icon ml-2 mr-2" src="./images/setting-user-icon.png">
+				</div>
+				<div class="col-md-10 pl-4 col-10 menu-label my-auto"><p class="mb-0">KYC</p></div>
+			</div>
+			</a>
+			<a style="text-decoration: none" href="#">
+				<div class="setting-box row">
+					<div class="col-md-2 col-2">
+						<img class="setting-icon ml-2 mr-2" src="./images/setting-bell-icon.png">
+					</div>
+					<div class="col-md-10 pl-4 col-10 menu-label my-auto"><p class="mb-0">Notifications</p></div>
+				</div>
+			</a>
+			<a style="text-decoration: none" href="#">
+				<div class="setting-box row">
+					<div class="col-md-2 col-2">
+						<img class="setting-icon ml-2 mr-2" src="./images/setting-shield-icon.png">
+					</div>
+					<div class="col-md-10 pl-4 col-10 menu-label my-auto"><p class="mb-0">Security</p></div>
+				</div>
+			</a>
+			<a style="text-decoration: none" href="#">
+				<div class="setting-box row">
+					<div class="col-md-2 col-2">
+						<img class="setting-icon ml-2 mr-2" src="./images/setting-support-icon.png">
+					</div>
+					<div class="col-md-10 pl-4 col-10 menu-label my-auto"><p class="mb-0">Support</p></div>
+				</div>
+			</a>
+			<a style="text-decoration: none" href="#">
+				<div class="setting-box row">
+					<div class="col-md-2 col-2">
+						<img class="setting-icon ml-2 mr-2" src="./images/setting-about-icon.png">
+					</div>
+					<div class="col-md-10 pl-4 col-10 menu-label my-auto"><p class="mb-0">About</p></div>
+				</div>
+			</a>
+			<a style="text-decoration: none" href="#">
+				<div class="setting-box row">
+					<div class="col-md-2 col-2">
+						<img class="setting-icon ml-2 mr-2" src="./images/setting-logout-icon.png">
+					</div>
+					<div class="col-md-10 pl-4 col-10 menu-label my-auto"><p class="mb-0">Log out</p></div>
+				</div>
+			</a>
+		</div>
+		<div class="col-md-9 no-padding submit-code">
+			<p class="text-black" style="font-weight: bold">An SMS has been sent to you!</p>
+			<p class="normal-text text-medium-light-grey mb-5">Please input the code below to verify your mobile number.</p>
+			<div>
+				<form class="justify-content-center normal-text text-grey mb-2 row">
+					<input class="input-code" type="text" name=""><br>
+					<input class="input-code" type="text" name=""><br>
+					<input class="input-code" type="text" name=""><br>
+					<input class="input-code" type="text" name=""><br>
+					<input class="input-code" type="text" name=""><br>
+					<input class="input-code" type="text" name=""><br>
+				</form>
+			</div>
+			<a class="normal-text text-blue" href="#">Resend code</a><br>
+			<a href="#"><button type="button" style="height: 35px; width: 280px" class="btn btn-primary gradient-btn mt-4">Submit</button></a>
+		</div>	
+	</div>
+
+
+</body>
+</html>
