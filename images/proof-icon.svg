@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="82.6" height="82.6" viewBox="0 0 82.6 82.6">
+  <defs>
+    <clipPath id="clip">
+      <use xlink:href="#fill"/>
+    </clipPath>
+    <clipPath id="clip-2">
+      <use xlink:href="#fill-2"/>
+    </clipPath>
+    <clipPath id="clip-3">
+      <use xlink:href="#fill-3"/>
+    </clipPath>
+    <clipPath id="clip-4">
+      <use xlink:href="#fill-4"/>
+    </clipPath>
+    <clipPath id="clip-5">
+      <use xlink:href="#fill-5"/>
+    </clipPath>
+  </defs>
+  <g id="proof-icon" transform="translate(-1582.068 -532.689)">
+    <circle id="Ellipse_166" data-name="Ellipse 166" cx="41.3" cy="41.3" r="41.3" transform="translate(1582.068 532.689)" fill="#f0f6ff"/>
+    <g id="Rectangle_559" data-name="Rectangle 559" transform="translate(1605.463 552.252)" fill="none" stroke="#3167c2" stroke-width="2">
+      <rect width="36.075" height="43.475" rx="4" stroke="none"/>
+      <rect x="1" y="1" width="34.075" height="41.475" rx="3" fill="none"/>
+    </g>
+    <g id="Rectangle_560" data-name="Rectangle 560" transform="translate(1612.863 580.626)" fill="#fff" stroke="#3167c2" stroke-width="2">
+      <rect id="fill" width="21.275" height="1.775" rx="0.887" stroke="none"/>
+      <path d="M0,0.774975061416626h21.274808883666992M20.274808883666992,0v1.774975061416626M21.274808883666992,1h-21.274808883666992M1,1.774975061416626v-1.774975061416626" fill="none" clip-path="url(#clip)"/>
+    </g>
+    <g id="Rectangle_563" data-name="Rectangle 563" transform="translate(1612.863 575.626)" fill="#fff" stroke="#3167c2" stroke-width="2">
+      <rect id="fill-2" width="21.275" height="1.775" rx="0.887" stroke="none"/>
+      <path d="M0,0.774975061416626h21.274808883666992M20.274808883666992,0v1.774975061416626M21.274808883666992,1h-21.274808883666992M1,1.774975061416626v-1.774975061416626" fill="none" clip-path="url(#clip-2)"/>
+    </g>
+    <g id="Rectangle_565" data-name="Rectangle 565" transform="translate(1612.863 565.626)" fill="#fff" stroke="#3167c2" stroke-width="2">
+      <rect id="fill-3" width="12.813" height="1.775" rx="0.887" stroke="none"/>
+      <path d="M0,0.774975061416626h12.8128662109375M11.8128662109375,0v1.774975061416626M12.8128662109375,1h-12.8128662109375M1,1.774975061416626v-1.774975061416626" fill="none" clip-path="url(#clip-3)"/>
+    </g>
+    <g id="Rectangle_562" data-name="Rectangle 562" transform="translate(1612.863 570.626)" fill="#fff" stroke="#3167c2" stroke-width="2">
+      <rect id="fill-4" width="21.275" height="1.775" rx="0.887" stroke="none"/>
+      <path d="M0,0.774975061416626h21.274808883666992M20.274808883666992,0v1.774975061416626M21.274808883666992,1h-21.274808883666992M1,1.774975061416626v-1.774975061416626" fill="none" clip-path="url(#clip-4)"/>
+    </g>
+    <g id="Rectangle_564" data-name="Rectangle 564" transform="translate(1612.863 560.626)" fill="#fff" stroke="#3167c2" stroke-width="2">
+      <rect id="fill-5" width="12.813" height="1.775" rx="0.887" stroke="none"/>
+      <path d="M0,0.774975061416626h12.8128662109375M11.8128662109375,0v1.774975061416626M12.8128662109375,1h-12.8128662109375M1,1.774975061416626v-1.774975061416626" fill="none" clip-path="url(#clip-5)"/>
+    </g>
+  </g>
+</svg>

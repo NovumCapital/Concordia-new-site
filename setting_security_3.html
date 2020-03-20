@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Setting KYC step 2</title>
+	<title>Settings - Security 3</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
@@ -101,21 +101,55 @@
 				</div>
 			</a>
 		</div>
-		<div class="col-md-9 no-padding submit-code">
-			<p class="text-black" style="font-weight: bold">An SMS has been sent to you!</p>
-			<p class="normal-text text-medium-light-grey mb-5">Please input the code below to verify your mobile number.</p>
-			<div>
-				<form class="justify-content-center normal-text text-grey mb-2 row">
-					<input class="input-code" type="text" name=""><br>
-					<input class="input-code" type="text" name=""><br>
-					<input class="input-code" type="text" name=""><br>
-					<input class="input-code" type="text" name=""><br>
-					<input class="input-code" type="text" name=""><br>
-					<input class="input-code" type="text" name=""><br>
-				</form>
+		<div class="col-md-9 no-padding">
+			<div class="row">
+				<div class="col-md-6 mb-4">
+					<div class="col">
+						<div class="security-box pt-3 pb-3 mb-1 row">
+							<div class="col-md-11 col-xs-11">
+								<img class="mr-3" style="height: 18px" src="./images/lock.svg">
+								<span class="normal-text text-black my-auto">Change password</span>
+							</div>	
+							<div class="col-md-1 col-xs-1" align="right">
+								<img style="height: 14px" src="./images/nexticon.svg">
+							</div>
+						</div>
+						<div class="security-box pt-3 pb-3 mb-1 row">
+							<div class="col-md-11 col-xs-11">
+								<img class="mr-3" style="height: 18px" src="./images/key.svg">
+								<span class="normal-text text-black my-auto">Change passcode</span>
+							</div>	
+							<div class="col-md-1 col-xs-1" align="right">
+								<img style="height: 14px" src="./images/nexticon.svg">
+							</div>
+						</div>
+						<div class="security-box pt-3 pb-3 mb-3 row">
+							<div class="col-md-1 col-xs-1">
+								<img class="mr-3" style="height: 18px" src="./images/fingerprint.svg">
+							</div>	
+							<div class="col-md-8 col-xs-8">
+								<p class="normal-text text-black my-auto">Face/ Touch ID</p>
+								<span class="small-text text-light-grey">Enable Face/ Touch ID to open the app</span>
+							</div>
+							<div class="col-md-3 col-xs-3" align="right">
+								<label class="switch">
+								  	<input type="checkbox" checked>
+								  	<span class="slider round"></span>
+								</label>
+							</div>		
+						</div>
+					</div>	
+				</div>	
+				<div class="col-md-6">
+					<div class="border-box">
+						<div class="mb-3" align="center">
+							<p class="text-blue mb-2" style="font-weight: bold;">Change Passcode</p>
+							<p class="normal-text text-grey mt-5">Enter passcode</p>
+							<p style="width:200px" class="normal-text text-light-grey mt-7">This passcode is used to unlock and confirm transactions</p>
+						</div>
+					</div>	
+				</div>
 			</div>
-			<a class="normal-text text-blue" href="#">Resend code</a><br>
-			<a href="#"><button type="button" style="height: 38px; width: 280px" class="btn btn-primary gradient-btn mt-4">Submit</button></a>
 		</div>	
 	</div>
 
