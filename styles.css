@@ -1066,8 +1066,8 @@ input:checked + .slider:before {
 }
 
 .login-social {
-	width: 47px;
-	height: 47px;
+	width: 45px;
+	height: 45px;
 	border-radius: 300px;
 	border: 1px solid #ddd;
 	margin-left: 20px;
@@ -1076,7 +1076,7 @@ input:checked + .slider:before {
 
 
 .login-social:hover {
-	border: 1px solid #EAECF0;
+	border: 1px solid #f3f3f3;
 }
 
 
