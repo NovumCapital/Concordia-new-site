@@ -154,7 +154,7 @@ h2 {
   	width: 100%;
   	padding: 8px;
   	padding-left: 12px;
-  	margin-bottom: 18px;
+  	margin-bottom: 8px;
   	margin-top: 4px;
   	box-sizing: border-box;
   	border: 1px solid #e8e8e8;
@@ -165,6 +165,19 @@ h2 {
  .text-input:focus {
  	outline: 2px solid #4786FD;
  	background-color: #f8f8f8;
+ }
+
+ .text-input-value {
+  	width: 100%;
+  	padding: 8px;
+  	padding-left: 12px;
+  	margin-bottom: 18px;
+  	margin-top: 4px;
+  	box-sizing: border-box;
+  	border: 1px solid #e8e8e8;
+  	border-radius: 4px;
+  	color: #333;
+  	background-color: #f8f8f8;
  }
 
  .email-input {
@@ -506,6 +519,14 @@ h1 {
     margin-bottom: 20px;
 }
 
+.all-project-img {
+	width: 100%;
+	display: inline;
+    position: relative;
+    margin-bottom: 20px;
+    border-radius: 7px 7px 0px 0px;
+}
+
 .heart-img {
 	width: 25px;
 	margin-top: 15px;
@@ -586,6 +607,16 @@ h1 {
 	text-align: center;
 	width: 65%;
 	margin-top: -20px;
+}
+
+
+.bonus-box-2 {
+	background-image: linear-gradient(to right, #3149AB, #479BFD);
+	border-radius: 60px;
+	padding: 7px;
+	text-align: center;
+	width: 60%;
+	margin-top: -18px;
 }
 
 .vote {
@@ -1078,6 +1109,25 @@ input:checked + .slider:before {
 .login-social:hover {
 	border: 1px solid #f3f3f3;
 }
+
+.sort-by {
+	background-color: #f3f3f3;
+}
+
+.search-project {
+	border: 1px solid #e8e8e8;
+	border-radius: 4px;
+	width: 100%;
+	padding-top: 13px;
+	padding-bottom: 12px;
+}
+
+.all-project-box {
+	border-radius: 7px;
+	border: 1px solid #e8e8e8;
+}
+
+
 
 
 
