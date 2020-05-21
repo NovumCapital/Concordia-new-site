@@ -613,7 +613,7 @@ h1 {
 .bonus-box-2 {
 	background-image: linear-gradient(to right, #3149AB, #479BFD);
 	border-radius: 60px;
-	padding: 7px;
+	padding: 6px;
 	text-align: center;
 	width: 60%;
 	margin-top: -18px;
@@ -1126,6 +1126,65 @@ input:checked + .slider:before {
 	border-radius: 7px;
 	border: 1px solid #e8e8e8;
 }
+
+.team-img {
+	max-height: 170px;
+	max-width: 170px;
+	border-radius: 300px;
+	overflow: hidden;
+	transition: 0.3s;
+}
+
+.team-img:hover {
+	transform: scale(1.1);
+}
+
+img {
+	max-width: 100%;
+}
+
+.team-info {
+	position: relative;
+	bottom: 16px;
+}
+
+.team-linkedin {
+	width: 30px;
+	height: 30px;
+	border-radius: 100px;
+	display: inline-block;
+	background: #ddd;
+	font-size: 15px;
+	transition: 0.3s;
+	padding-top: 3px;
+}
+
+.team-linkedin:hover {
+	background-color: #222;
+	color: white;
+}
+
+.team-name {
+	font-size: 17px;
+	text-transform: uppercase;
+	margin-top: 25px;
+	margin-bottom: 0px;
+}
+
+.team-title {
+	letter-spacing: 3px;
+	text-transform: uppercase;
+	font-size: 12px;
+}
+
+.milestone-order {
+	width: 35px;
+	height: 35px;
+	background-color: #eee;
+	border-radius: 100px;
+}
+
+
 
 
 
