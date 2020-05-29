@@ -1,0 +1,118 @@
+
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Vote</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<!-- <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet"> -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="./styles.css">
+	<link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+</head>
+
+<body style="background-color: #F3F3F3">
+	<div class="header row mr-0 ml-0">
+		<div class="col-md-10 col-12">
+			<img class="brand" src="./images/concordia-logo.png">
+		</div>
+		<div class="col-md-1 col-9 pl-5 my-auto">
+			<a class="search" href="#"><i class="fa fa-search"><span class="ml-2">Search</span></i></a>
+		</div> 
+		<div class="col-md-1 col-3 my-auto pr-5 dropdown" align="right">
+			<img class="profile-user profile-dropdown" src="./images/profile-user.jpg" alt="">
+			<div class="dropdown layer"></div>
+			<div class="dropdown-content ">
+				<a href="#" class="menu-item text-black normal-text">
+					Login
+				</a>
+				<hr>
+				<a href="#" class="menu-item text-black normal-text">
+					Sign up
+				</a>
+			</div>
+		</div>
+	</div>
+	<div class="vote-section">
+		<div class="container-margin pt-5 mb-7" style="height: 500px">
+			<hr align="left" class="title-line-white mt-0">
+			<div>
+				<h1 style="color: white">Vote</h1>
+			</div>
+			<p class="mt-4 text-white normal-text">Show interest to get the project shortlisted to onboard Concordia<br>
+			Alternatively, you may also submit a project you wish to be included in this voting process.</p>
+		</div>
+	</div>		
+
+	<div class="container-margin mt-5 mb-7">
+		<hr align="left" class="title-line mt-7">
+		<div>
+			<h1>Submit Project</h1>
+		</div>
+		<div class="project-submit-box pl-4 pt-5 pr-4 mt-5">
+			<div class="row">
+				<div class="col-md-6">
+					<form class="normal-text text-grey">
+						Project Name<br>
+						<input class="text-input" type="text" name="Project Name"><br>
+						Token Symbol<br>
+						<input class="text-input" type="text" name="Token Symbol"><br>
+						<span>Token Platform</span><span class="small-text text-medium-light-grey ml-2">(i.e. ethereum, EOS, stellar)</span><br>
+						<input class="text-input" type="text" name="Token Platform"><br>
+						Short Description<br>
+						<textarea class="mt-1" style="height: 210px" placeholder="One-liner that best describe your project."></textarea>
+						<p class="text-length text-light-grey mt-2 mb-5" align="right"><i>100 characters left</i></p>
+					</form>
+				</div>
+				<div class="col-md-6">
+					<form class="normal-text text-grey">
+						Upload image
+						<a style="text-decoration: none;" href="#">
+							<div align="center" class="upload-image mt-1 mb-3">
+								<img class="upload-icon mt-4" src="./images/upload-icon.png">
+								<p class="normal-text" style="color: #3167C2">Upload image</p>
+								<p class="extra-small-text text-light-grey"><i>Recommended image ratio is 16:9</i></p>
+							</div>
+						</a>
+						Website<br>
+						<input class="text-input" type="text" name="Website"><br>
+						Restricted Countries<br>
+						<input class="text-input" type="text" name="Restricted Countries"><br>
+						<span>Sale Start</span><span class="small-text text-medium-light-grey ml-2">(input pre-sale start date if applies)</span><br>
+						<input class="text-input" type="text" name="Token Platform"><br>
+						Sale End<br>
+						<input class="text-input" type="text" name="Project Name"><br>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div align="right">
+				<a href="#"><button type="button" style="height: 40px; width: 180px" class="btn btn-primary gradient-btn mt-5">Submit</button></a>
+			</div>
+	</div>
+	
+
+	<div class="footer">
+		<div class="container-margin pt-4 pb-4">
+			<div class="row text-white normal-text mb-2 mt-2">
+				<div class="col-md-7">
+					<p class="mb-0">Concordia © 2019. All Rights Reserved.</p>
+				</div>
+				<div class="footer-menu col-md-5 content-center">
+					<a href="#">About Us</a>
+					<span>|</span>
+					<a href="#">Contact Us</a>
+					<span>|</span>
+					<a href="#">Privacy Policy</a>
+					<span>|</span>
+					<a href="#">Term of use</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>
