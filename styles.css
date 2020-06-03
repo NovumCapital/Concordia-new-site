@@ -134,6 +134,14 @@ h2 {
 	background-color: white;
 }
 
+.pledge-border-box {
+	border: 1px solid #3167C2;
+	border-radius: 8px;
+	padding: 20px;
+	padding-bottom: 10px;
+	background-color: white;
+}
+
 .login-box {
 	border-radius: 8px;
 	padding: 20px;
@@ -1139,7 +1147,7 @@ input:checked + .slider:before {
 	transform: scale(1.1);
 }
 
-img {
+.team-img-display {
 	max-width: 100%;
 }
 
@@ -1160,8 +1168,19 @@ img {
 }
 
 .team-linkedin:hover {
-	background-color: #222;
+	background-color: #3167C2;
 	color: white;
+}
+
+.social-icon {
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-bottom: 15px;
+	transition: 0.3s;
+}
+
+.social-icon:hover {
+	transform: scale(1.1);
 }
 
 .team-name {
@@ -1183,6 +1202,36 @@ img {
 	background-color: #eee;
 	border-radius: 100px;
 }
+
+.pledge-check-img {
+	height: 20px;
+}
+
+.pledge-coin-img {
+	width: 35px;
+	transition: 0.3s;
+}
+
+.pledge-coin-img:hover {
+	transform: scale(1.1);
+}
+
+.pledge-exchange-icon {
+	width: 35px;
+}
+
+.project-submit-box {
+	background-color: white;
+	border-radius: 5px;
+}
+
+.vote-section {
+	background-color: #3167C2;
+}
+
+
+
+
 
 
 
