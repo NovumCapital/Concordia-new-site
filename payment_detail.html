@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Price Package - subscribed</title>
+	<title>Payment details</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://js.stripe.com/v3/"></script>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
@@ -13,7 +14,7 @@
 	<link rel="stylesheet" href="./styles.css">
 	<link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
 </head>
-
+​
 <body>
 	<div class="header row mr-0 ml-0">
 		<div class="col-md-10 col-12">
@@ -36,7 +37,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="container-margin mt-5 mb-7">
+	<div class="container-margin mt-5">
 		<hr align="left" class="title-line mt-7">
 		<div class="row ml-0 mb-4">
 			<h1 class="mr-3">Subscription</h1>
@@ -74,9 +75,33 @@
 				<div class="content-center"><button type="button" class="upgrade-btn btn btn-primary border-btn">Upgrade</button></div>
 			</div>
 		</div>
+
+
+		<hr align="left" class="title-line mt-7">
+		<h1 class="mr-3">Payment Details</h1>
+​		<div class="payment-checkout-box mt-4 pt-5 pb-4" align="center">
+			<div class="col-12 col-md-6" align="left">
+				<div class="payment-amount normal-text text-black">
+					<span>Amount: US$950.4</span>
+				</div>	
+			</div>
+			<div class="col-12 col-md-6">
+				<form class="payment-field mt-2" id="payment-form">
+		            <div id="card">
+		              <!-- Elements will create input elements here -->
+		            </div>
+		          
+		            <!-- We'll put the error messages in this element -->
+		            <div id="card-errors" role="alert">
+		            	
+		            </div>
+		        </form>
+	    	</div>
+	        <div class="col-12 col-md-6"><a href="#"><button type="button" style="height: 42px; width: 100%" class="btn btn-primary gradient-btn normal-text mt-5 mb-4">Pay now</button></a></div>
+	    </div> 
 	</div>
 	
-
+​
 	<div class="footer">
 		<div class="container-margin pt-4 pb-4">
 			<div class="row text-white normal-text mb-2 mt-2">
@@ -97,4 +122,18 @@
 	</div>
 	
 </body>
+<script>
+	var stripe = Stripe("{{config('services.stripe.key')}}");
+	
+	var elements = stripe.elements();
+	var style = {
+	  base: {
+		color: "#32325d",
+	  }
+	};
+	
+	var card = elements.create("card", { style: style ,hidePostalCode:true});
+	card.mount("#card");
+	
+	</script>
 </html>
